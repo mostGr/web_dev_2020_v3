@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: local("MuseoSansCyrl-500"),url(../fonts/MuseoSansCyrl-500.woff2) format("woff2"),url(../fonts/MuseoSansCyrl-500.woff) format("woff");
+  font-weight: 400;
+  font-style: normal
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: local("MuseoSansCyrl-300"),url(../fonts/MuseoSansCyrl-300.woff2) format("woff2"),url(../fonts/MuseoSansCyrl-300.woff) format("woff");
+  font-weight: 300;
+  font-style: normal
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: local("MuseoSansCyrl-700"),url(../fonts/MuseoSansCyrl-700.woff2) format("woff2"),url(../fonts/MuseoSansCyrl-700.woff) format("woff");
+  font-weight: 700;
+  font-style: normal
+}
+body {
+  font-family: 'Museo Sans Cyrl',sans-serif
+}
+button {
+  border: none
+}
+.btn-page {
+  border-radius: 5px;
+  background-color: #c70101;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase
+}
+.promo {
+  min-height: 650px;
+  background: url(../img/bg/header-bg.jpg) center center/cover no-repeat;
+  padding: 20px 0 90px 0;
+  color: #fff
+}
+.promo-header-img {
+  width: 250px
+}
+.promo-header-img img {
+  width: 100%
+}
+.promo-header-partner {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-top: 9px
+}
+.promo-header-garmin {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center
+}
+.promo-header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end
+}
+.promo-header-wrap .promo-header-phone {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff
+}
+.promo-header-wrap .promo-header-phone:hover {
+  text-decoration: none
+}
+.promo-header-wrap .btn-page__promo {
+  width: 150px;
+  height: 30px;
+  font-size: 12px
+}
+.promo-descr {
+  text-align: right;
+  margin-top: 90px
+}
+.promo-descr-title {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1
+}
+.promo-descr-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: 17px
+}
+.promo-descr-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-top: 65px
+}
+.promo-descr-icons-item {
+  max-width: 106px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 20px 0 50px
+}
+.promo-descr-icons-item img {
+  min-height: 46px
+}
+.promo-descr-icons-item:nth-child(2) {
+  max-width: 75px
+}
+.promo-descr-icons-item .promo-item-descr {
+  text-align: center;
+  font-size: 13.8px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px
+}
+.promo-descr .btn-page__consultation {
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+  margin-top: 65px
+}
+.promo-descr-link {
+  margin-top: 18px
+}
+.promo-descr-link a {
+  color: #fff;
+  text-decoration: underline
+}
