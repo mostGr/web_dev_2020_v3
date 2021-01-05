@@ -201,3 +201,112 @@ button {
   color: red;
   text-decoration: underline
 }
+@media (max-width:991px) {
+  .promo-header-img {
+    width: 100%;
+    margin-top: 5px
+  }
+  .promo-header-partner {
+    font-size: 11px
+  }
+  .promo-header-garmin {
+    font-size: 17px
+  }
+  .promo-descr-title {
+    font-size: 39px
+  }
+  .promo-descr-subtitle {
+    font-size: 22px
+  }
+  .benefits-wrap {
+    margin-top: 35px
+  }
+  .benefits-wrap .benefits-item {
+    padding-top: 30px
+  }
+  .benefits-wrap .benefits-item-title {
+    margin-top: 20px
+  }
+  .benefits-wrap .benefits-item-subtitle {
+    margin-top: 15px
+  }
+}
+@media (max-width:767px) {
+  .promo {
+    padding-bottom: 70px;
+    min-height: 595px
+  }
+  .promo-header-partner {
+    font-size: 9px
+  }
+  .promo-header-garmin {
+    font-size: 14px
+  }
+  .promo-header-wrap .promo-header-phone {
+    font-size: 15px
+  }
+  .promo-header-wrap .btn-page__promo {
+    font-size: 11px;
+    width: 130px;
+    height: 25px
+  }
+  .promo-descr-title {
+    font-size: 30px
+  }
+  .promo-descr-subtitle {
+    font-size: 17px
+  }
+  .promo-descr-icons-item {
+    margin: 0 0 0 30px
+  }
+  .promo-descr .btn-page_consultation {
+    width: 250px;
+    height: 45px;
+    font-size: 14px;
+    margin-top: 50px
+  }
+  .benefits .title-section {
+    font-size: 25px
+  }
+}
+@media (max-width:575px) {
+  .promo {
+    min-height: 560px;
+    padding-bottom: 50px
+  }
+  .promo-header .col-sm-4.col-lg-4 {
+    display: none
+  }
+  .promo-header-wrap .promo-header-phone {
+    font-size: 13px
+  }
+  .promo-header-wrap .btn-page__promo {
+    font-size: 10px;
+    width: 120px;
+    height: 23px
+  }
+  .promo-descr-title {
+    font-size: 23px
+  }
+  .promo-descr-subtitle {
+    font-size: 13px
+  }
+  .promo-descr .btn-page_consultation {
+    width: 220px;
+    height: 40px;
+    font-size: 13px
+  }
+  .promo-descr-link {
+    margin-top: 12px;
+    font-size: 13px
+  }
+  .benefits {
+    padding: 50px 0 40px 0
+  }
+  .benefits .title-section {
+    font-size: 21px
+  }
+  .benefits-wrap {
+    margin-top: 0
+  }
+}
