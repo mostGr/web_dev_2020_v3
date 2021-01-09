@@ -1,0 +1,30 @@
+.carousel
+    padding: 81px 0
+    &-inner
+        position: relative
+        width: 750px
+        margin: 0 auto
+        &-img
+            width: 100%
+    .slick-prev, .slick-next
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: -68px
+        border: none
+        background-color: #ffffff
+        img
+            width: 31px
+            height: 50px
+    .slick-next
+        right: -68px
+        left: auto
+
+    .slick-dots
+        display: flex !important
+        justify-content: center
+        margin-top: 20px
+        li
+            list-style: none
+            &:not(:last-child)
+                margin-right: 20px

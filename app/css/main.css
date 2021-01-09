@@ -147,7 +147,7 @@ button {
   line-height: normal;
   margin-top: 20px
 }
-.promo-descr .btn-page_consultation {
+.promo-descr .btn-page_descr {
   width: 300px;
   height: 50px;
   font-size: 16px;
@@ -201,6 +201,107 @@ button {
   color: red;
   text-decoration: underline
 }
+.consultation {
+  min-height: 680px;
+  background: url(../img/bg/form-bg.jpg) center center/cover no-repeat;
+  padding: 100px 0 90px
+}
+.consultation-wrap .consultation-title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase
+}
+.consultation-wrap .consultation-descr {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 80px
+}
+.consultation-wrap .btn-page_consultation {
+  padding: 20px 43px;
+  font-size: 16px;
+  line-height: 1;
+  margin-top: 5px
+}
+.consultation-wrap .feed-form {
+  margin-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start
+}
+.consultation-wrap .feed-form input {
+  margin-bottom: 15px;
+  width: 300px;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: none;
+  color: #4b4b4b;
+  font-size: 14px;
+  font-weight: 300
+}
+.carousel {
+  padding: 81px 0
+}
+.carousel-inner {
+  position: relative;
+  width: 750px;
+  margin: 0 auto
+}
+.carousel-inner-img {
+  width: 100%
+}
+.carousel .slick-next,
+.carousel .slick-prev {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: -68px;
+  border: none;
+  background-color: #fff
+}
+.carousel .slick-next img,
+.carousel .slick-prev img {
+  width: 31px;
+  height: 50px
+}
+.carousel .slick-next {
+  right: -68px;
+  left: auto
+}
+.carousel .slick-dots {
+  display: -webkit-box!important;
+  display: -ms-flexbox!important;
+  display: flex!important;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 20px
+}
+.carousel .slick-dots li {
+  list-style: none
+}
+.carousel .slick-dots li:not(:last-child) {
+  margin-right: 20px
+}
+@media (max-width:1199px) {
+  .carousel-inner {
+    width: 640px
+  }
+}
 @media (max-width:991px) {
   .promo-header-img {
     width: 100%;
@@ -229,6 +330,23 @@ button {
   }
   .benefits-wrap .benefits-item-subtitle {
     margin-top: 15px
+  }
+  .consultation {
+    min-height: 650px
+  }
+  .consultation-wrap .consultation-title {
+    font-size: 30px
+  }
+  .consultation-wrap .consultation-descr {
+    margin-top: 50px
+  }
+  .carousel-inner {
+    width: 570px
+  }
+  .carousel .slick-next img,
+  .carousel .slick-prev img {
+    width: 28px;
+    height: 40px
   }
 }
 @media (max-width:767px) {
@@ -267,6 +385,36 @@ button {
   }
   .benefits .title-section {
     font-size: 25px
+  }
+  .consultation {
+    min-height: 545px;
+    padding: 70px 0 50px
+  }
+  .consultation-wrap .consultation-title {
+    font-size: 25px
+  }
+  .consultation-wrap .consultation-descr {
+    margin-top: 40px;
+    font-size: 18px
+  }
+  .carousel {
+    padding: 50px 0
+  }
+  .carousel-inner {
+    width: 430px
+  }
+  .carousel .slick-next,
+  .carousel .slick-prev {
+    left: -45px
+  }
+  .carousel .slick-next img,
+  .carousel .slick-prev img {
+    width: 20px;
+    height: 32px
+  }
+  .carousel .slick-next {
+    right: -45px;
+    left: auto
   }
 }
 @media (max-width:575px) {
@@ -308,5 +456,41 @@ button {
   }
   .benefits-wrap {
     margin-top: 0
+  }
+  .consultation {
+    padding: 50px 0 40px
+  }
+  .consultation-wrap .consultation-title {
+    font-size: 21px
+  }
+  .consultation-wrap .consultation-descr {
+    margin-top: 40px;
+    font-size: 16px
+  }
+  .consultation-wrap .btn-page_consultation {
+    width: 290px;
+    font-size: 15px
+  }
+  .consultation-wrap .feed-form input {
+    width: 290px
+  }
+  .carousel {
+    padding: 50px 0
+  }
+  .carousel-inner {
+    width: 230px
+  }
+  .carousel .slick-next,
+  .carousel .slick-prev {
+    left: -35px
+  }
+  .carousel .slick-next img,
+  .carousel .slick-prev img {
+    width: 13px;
+    height: 20px
+  }
+  .carousel .slick-next {
+    right: -35px;
+    left: auto
   }
 }

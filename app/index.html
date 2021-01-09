@@ -7,12 +7,12 @@
     <title>RunSmart</title>
     <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <div class="promo">
-
+    <section class="promo">
         <div class="container">
             <header class="promo-header">
                 <div class="row">
@@ -64,7 +64,7 @@
                                 <div class="promo-item-descr">Ответим <br> на все вопросы</div>
                             </div>
                         </div>
-                        <button class="btn-page btn-page_consultation">
+                        <button class="btn-page btn-page_descr">
                             заказать консультацию
                         </button>
                         <div class="promo-descr-link">или <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a></div>
@@ -73,11 +73,9 @@
                 </div>
             </div>
         </div>
+    </section>
 
-
-    </div>
-
-    <div class="benefits">
+    <section class="benefits">
         <div class="container">
             <h2 class="title-section">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="benefits-wrap">
@@ -116,7 +114,54 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 offset-lg-1">
+                    <div class="consultation-wrap">
+                        <h2 class="consultation-title">Получите бесплатную консультацию <br> по подбору пульсометра </h2>
+                        <div class="consultation-descr">Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут</div>
+                        <form class="feed-form" action="#">
+                            <input name="name" required placeholder="Ваше имя" type="text">
+                            <input name="phone" required placeholder="Ваш телефон" type="tel">
+                            <input name="email" required placeholder="Ваш E-mail" type="email">
+                            <button class="btn-page btn-page_consultation">
+                                заказать консультацию
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="carousel-inner">
+                        <div>
+                            <img src="./img/other/slider-clock-2.jpg" alt="slider-clock" class="carousel-inner-img">
+                        </div>
+                        <div>
+                            <img src="./img/other/slider-clock-2.jpg" alt="slider-clock" class="carousel-inner-img">
+                        </div>
+                        <div>
+                            <img src="./img/other/slider-clock-2.jpg" alt="slider-clock" class="carousel-inner-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.min.js"></script>
 </body>
 
 </html>
