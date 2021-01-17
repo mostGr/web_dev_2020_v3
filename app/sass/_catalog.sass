@@ -1,0 +1,162 @@
+.catalog
+    padding: 27px 0 80px
+    &-tabs
+        margin-top: 70px
+        list-style: none
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-bottom: 0
+        padding-left: 0
+        &-item
+            width: 200px
+            height: 50px
+            border: 2px solid #d0d0d0
+
+            color: #6b6b6b
+            font-size: 18px
+            font-weight: 500
+            line-height: 2.8
+            text-align: center
+            text-transform: uppercase
+            margin: 0 5px
+            cursor: pointer
+
+            transform: skewX(-22deg)
+            transition: 0.5s box-shadow
+            &:hover
+                box-shadow: 3px 3px 20px #c70101
+                border: none
+            div
+                transform: skewX(22deg)
+            &_active
+                background-color: #c70101
+                color: #ffffff
+                border: none
+
+    &-content
+        margin-top: 60px
+        display: none
+        flex-wrap: wrap
+        justify-content: center
+        &_active
+            display: flex
+        .catalog-item
+            width: 300px
+            min-height: 440px
+            border: 2px solid #e8e8e8
+            padding: 20px 20px 26px
+            color: #0d0d0d
+            overflow: hidden
+            margin-bottom: 20px
+            margin-right: 10px
+            &:nth-child(3n + 3)
+                margin-right: 0
+            &-wrap
+                width: calc( 200% + 40px )
+                display: flex
+                .catalog-item-content
+                    width: 50%
+                    margin-right: 0
+                    padding-right: 10px
+                    transform: translateX(-100%)
+                    transition: 0.5s all
+                    &_active
+                        transform: translateX(0%)
+                        margin-right: 20px
+                        padding-right: 0
+                    .catalog-item-img
+                        display: block
+                        margin: 0 auto
+                        max-width: 100%
+                        height: 200px
+                    .catalog-item-subtitle
+                        margin-top: 20px
+                        font-size: 16px
+                        font-weight: 700
+                        line-height: 1
+                        text-align: center
+                    .catalog-item-descr
+                        margin-top: 15px
+                        font-size: 14px
+                        font-weight: 400
+                        line-height: normal
+                        text-align: center
+                    .catalog-item-link
+                        margin-top: 10px
+                        text-align: center
+                        a
+                            color: #c70101
+                            font-size: 14px
+                            font-weight: 500
+                            line-height: 1
+                            text-decoration: underline
+                            text-transform: uppercase
+                .catalog-item-list
+                    position: relative
+                    width: 50%
+                    margin-left: 20px
+                    transform: translateX(0%)
+                    transition: 0.5s all
+                    padding-right: 20px
+                    padding-left: 19px
+                    margin-bottom: 0
+                    list-style: none
+                    &_active
+                        transform: translateX(-100%)
+                        margin-left: 0
+
+                    li
+                        position: relative
+                        color: #555555
+                        font-size: 14px
+                        font-weight: 300
+                        line-height: normal
+                        margin-bottom: 20px
+                        &::before
+                            content: ''
+                            position: absolute
+                            width: 5px
+                            height: 5px
+                            background-color: #c70101
+                            top: 5px
+                            left: -17px
+                    &-back
+                        position: absolute
+                        bottom: 0
+                        left: 50%
+                        transform: translateX(calc( -50% - 19px))
+                        a
+                            color: #c70101
+                            font-size: 14px
+                            font-weight: 500
+                            line-height: 1
+                            text-align: center
+                            text-decoration: underline
+                            text-transform: uppercase
+            hr
+                margin-top: 19px
+                margin-bottom: 19px
+                background-color: #e8e8e8
+                border-bottom: none
+            &-footer
+                display: flex
+                justify-content: space-between
+                align-items: center
+                &-prices
+                    .catalog-item-price-old
+                        color: #555555
+                        font-size: 14px
+                        font-weight: 300
+                        line-height: 1
+                        text-decoration: line-through
+                    .catalog-item-price
+                        color: #050505
+                        font-size: 20px
+                        font-weight: 700
+                        line-height: normal
+                        margin-top: 5px
+                &-btn
+                    width: 131px
+                    height: 40px
+                    font-size: 14px

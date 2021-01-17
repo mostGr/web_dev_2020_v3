@@ -147,3 +147,15 @@
 [0110/005213.865:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ilsha\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\2314668d-775c-4ba8-b031-e3590625c3d8: Системе не удается найти указанный путь. (0x3)
 [0110/005213.870:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ilsha\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\63cb41de-73a4-46bd-a4f8-fd4567def876: Системе не удается найти указанный путь. (0x3)
 [0110/005213.876:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ilsha\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\2ff1a090-1472-4acc-989b-a2b845b89d47: Системе не удается найти указанный путь. (0x3)
+[0111/122339.821:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0111/232504.970:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0111/232505.346:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0111/232505.375:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0111/232505.423:ERROR:exception_snapshot_win.cc(99)] thread ID 9492 not found in process
+[0111/232505.459:ERROR:exception_snapshot_win.cc(99)] thread ID 6676 not found in process
+[0111/232505.459:ERROR:exception_snapshot_win.cc(99)] thread ID 3672 not found in process
+[0111/232505.495:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0111/232505.495:ERROR:exception_snapshot_win.cc(99)] thread ID 8124 not found in process
+[0111/232505.535:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0111/232505.535:ERROR:exception_snapshot_win.cc(99)] thread ID 10624 not found in process
+[0112/094016.336:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
