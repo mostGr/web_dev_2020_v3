@@ -101,26 +101,29 @@
                     padding-right: 20px
                     padding-left: 19px
                     margin-bottom: 0
-                    list-style: none
+
                     &_active
                         transform: translateX(-100%)
                         margin-left: 0
-
-                    li
-                        position: relative
-                        color: #555555
-                        font-size: 14px
-                        font-weight: 300
-                        line-height: normal
-                        margin-bottom: 20px
-                        &::before
-                            content: ''
-                            position: absolute
-                            width: 5px
-                            height: 5px
-                            background-color: #c70101
-                            top: 5px
-                            left: -17px
+                    ul
+                        list-style: none
+                        padding-left: 0
+                        margin-bottom: 0
+                        li
+                            position: relative
+                            color: #555555
+                            font-size: 14px
+                            font-weight: 300
+                            line-height: normal
+                            margin-bottom: 20px
+                            &::before
+                                content: ''
+                                position: absolute
+                                width: 5px
+                                height: 5px
+                                background-color: #c70101
+                                top: 5px
+                                left: -17px
                     &-back
                         position: absolute
                         bottom: 0

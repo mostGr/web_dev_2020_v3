@@ -72,6 +72,34 @@ label.error {
   margin-bottom: 15px;
   margin-top: -14px
 }
+@-webkit-keyframes heartBit {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+@keyframes heartBit {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
 .promo {
   min-height: 650px;
   background: url(../img/bg/header-bg.jpg) center center/cover no-repeat;
@@ -215,6 +243,14 @@ label.error {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center
+}
+.benefits-wrap .benefits-item-img_animated {
+  -webkit-animation: heartBit 1.7s ease infinite;
+  animation: heartBit 1.7s ease infinite
+}
+.benefits-wrap .benefits-item-img_animated:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused
 }
 .benefits-wrap .benefits-item-title {
   color: #0d0d0d;
@@ -458,8 +494,7 @@ label.error {
   transition: .5s all;
   padding-right: 20px;
   padding-left: 19px;
-  margin-bottom: 0;
-  list-style: none
+  margin-bottom: 0
 }
 .catalog-content .catalog-item-wrap .catalog-item-list_active {
   -webkit-transform: translateX(-100%);
@@ -467,7 +502,12 @@ label.error {
   transform: translateX(-100%);
   margin-left: 0
 }
-.catalog-content .catalog-item-wrap .catalog-item-list li {
+.catalog-content .catalog-item-wrap .catalog-item-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0
+}
+.catalog-content .catalog-item-wrap .catalog-item-list ul li {
   position: relative;
   color: #555;
   font-size: 14px;
@@ -475,7 +515,7 @@ label.error {
   line-height: normal;
   margin-bottom: 20px
 }
-.catalog-content .catalog-item-wrap .catalog-item-list li::before {
+.catalog-content .catalog-item-wrap .catalog-item-list ul li::before {
   content: '';
   position: absolute;
   width: 5px;
@@ -581,6 +621,11 @@ label.error {
   width: 100%;
   height: 630px
 }
+.footer-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0
+}
 .footer-info {
   position: absolute;
   top: 0;
@@ -649,6 +694,17 @@ label.error {
 }
 .footer-info-social-item img {
   height: 27px
+}
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px
+}
+.pageup img {
+  width: 100%
 }
 .overlay {
   display: none;
@@ -1169,5 +1225,8 @@ label.error {
   }
   .overlay .modal label.error {
     font-size: 10px
+  }
+  .pageup img {
+    display: none
   }
 }

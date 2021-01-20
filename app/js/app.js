@@ -67,4 +67,22 @@ $(document).ready(function() {
     validationForms('#order form');
 
     $('input[name=phone]').mask("+7 (999) 999-99-99");
+
+    // Smooth scroll and pageUp
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1600) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
+
+    $("a[href='#up']").on('click', function() {
+        const _href = $(this).attr("href");
+        $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+        return false;
+    });
+
+    new WOW().init();
 });

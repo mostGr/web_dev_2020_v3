@@ -10,7 +10,11 @@
             display: flex
             flex-direction: column
             align-items: center
-
+            &-img
+                &_animated
+                    animation: heartBit 1.7s ease infinite
+                    &:hover
+                        animation-play-state: paused
             &-title
                 color: #0d0d0d
                 font-size: 18px
